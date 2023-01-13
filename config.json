@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "김다미"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n방향: 시험 응시자에서 부친으로 향하는 유방향 그래프\n\u003c/p\u003e\n\n\u003cp\u003e\n노드크기: 연결중심\n\u003c/p\u003e\n\n\u003cp\u003e\n노드색: 모듈 클래스\n\u003c/p\u003e",
+    "intro": "정조대 함경도에 시행된 빈흥과 방목을 데이터로 두 시험 응시자를 연결하여 시각화하였습니다.",
+    "title": "함경도 빈흥과 소셜네트워크 시각화"
+  },
+  "legend": {
+    "edgeLabel": "부자관계, 형제관계, 응시시험",
+    "colorLabel": "모듈 클래스",
+    "nodeLabel": "응시자, 부친, 빈흥과명"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
